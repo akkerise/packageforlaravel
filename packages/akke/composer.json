@@ -1,0 +1,21 @@
+{
+    "name": "akke/simple-admin",
+    "description": "A package which provides a simple UI for managing users",
+    "authors": [
+        {
+            "name": "AkKeRise",
+            "email": "akkerise@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "AkKe\\SimpleAdmin\\": "packages/akke/simple-admin/src"
+        }
+    }
+}

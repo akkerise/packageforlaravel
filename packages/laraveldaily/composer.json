@@ -1,0 +1,21 @@
+{
+    "name": "laraveldaily/timezones",
+    "description": "Demo-package to show time",
+    "authors": [
+        {
+            "name": "AkKeRise",
+            "email": "akkerise@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Laraveldaily\\Timezones\\": "packages/laraveldaily/timezones/src"
+        }
+    }
+}
