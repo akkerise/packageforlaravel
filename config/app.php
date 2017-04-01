@@ -176,6 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        LaravelDoctrine\ORM\DoctrineServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
 
         Laraveldaily\Timezones\TimezonesServiceProvider::class,
         AkKe\SimpleAdmin\SimpleAdminServiceProvider::class,
@@ -227,7 +229,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'EntityManager' => LaravelDoctrine\ORM\Facades\EntityManager::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];

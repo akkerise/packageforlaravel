@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class UserSeeder extends Seeder
+class ProductSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,14 +11,12 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-    	$faker = Faker\Factory::create();
+        $faker = Faker\Factory::create();
         $limit = 200;
         for ($i = 0; $i < $limit; $i++) {
-            DB::table('users')->insert([
+            DB::table('products')->insert([
                 'name' => $faker->firstName . ' ' . $faker->lastName,
-                'password' => $faker->password,
-                'email' => $faker->safeEmail,
-                'remember_token' => $faker->postcode,
+                'description' => $faker->text($maxNbChars = 200),
                 'created_at' => $faker->dateTime($max = 'now'),
                 'updated_at' => $faker->dateTime($max = 'now'),
             ]);
