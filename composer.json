@@ -25,7 +25,8 @@
         "psr-4": {
             "App\\": "app/",
             "Laraveldaily\\Timezones\\": "packages/laraveldaily/timezones/src",
-            "AkKe\\SimpleAdmin\\": "packages/akke/simple-admin/src"
+            "AkKe\\SimpleAdmin\\": "packages/akke/simple-admin/src",
+            "AkKeRise\\AkKeLogin\\": "packages/akkerise/akkelogin/src"
         }
     },
     "autoload-dev": {

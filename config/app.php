@@ -181,6 +181,7 @@ return [
 
         Laraveldaily\Timezones\TimezonesServiceProvider::class,
         AkKe\SimpleAdmin\SimpleAdminServiceProvider::class,
+        AkKeRise\AkKeLogin\AkKeLoginServiceProvider::class,
     ],
 
     /*

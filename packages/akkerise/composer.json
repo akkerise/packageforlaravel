@@ -1,0 +1,12 @@
+{
+    "name": "akke/akkerise",
+    "description": "AkKe Login",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "AkKeRise",
+            "email": "nguyenthanh.rise.88@gmail.com"
+        }
+    ],
+    "require": {}
+}
